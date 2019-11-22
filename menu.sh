@@ -127,6 +127,7 @@ case $mainmenu_selection in
 		"grafana" "Grafana" "ON" \
 		"mosquitto" "Eclipse-Mosquitto" "ON" \
 		"postgres" "Postgres" "OFF" \
+		"shiny" "shiny" "ON" \
 		"adminer" "Adminer" "OFF" \
 		"openhab" "openHAB" "OFF" \
 		"zigbee2mqtt" "zigbee2mqtt" "OFF" \
