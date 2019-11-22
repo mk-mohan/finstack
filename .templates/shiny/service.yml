@@ -1,0 +1,10 @@
+  shiny:
+    container_name: shiny
+    image: mk-mohan/shiny-finance
+    restart: unless-stopped
+    user: "0"
+    ports:
+      - 3838:3838
+    volumes:
+      - ./srv/shinyapps/:/srv/shiny-server/
+      - ./srv/shinylog/:/var/log/shiny-server/

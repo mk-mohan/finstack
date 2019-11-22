@@ -1,6 +1,6 @@
 # Announcements
 
-The bulk of the README has moved to the Wiki. Please check it out [here](https://github.com/gcgarner/IOTstack/wiki)
+The bulk of the README has moved to the Wiki. Please check it out [here](https://github.com/gcgarner/my-pistack/wiki)
 
 * BUGFIX: fixed issue where rsync gave issue on 'Preserve Environment and Config files'
 * BUGFIX: I incorrecly changed mosquittos volume mapping and it caused the container to restart. Reverted to the old volume mapping
@@ -24,9 +24,9 @@ The bulk of the README has moved to the Wiki. Please check it out [here](https:/
 
 ## Highlighted topics
 
-* [Bluetooth and Node-RED](https://github.com/gcgarner/IOTstack/wiki/Node-RED#using-bluetooth)
-* [Saving files to disk inside containers](https://github.com/gcgarner/IOTstack/wiki/Node-RED#sharing-files-between-node-red-and-the-host)
-* [Updating the Project](https://github.com/gcgarner/IOTstack/wiki/Updating-the-Project)
+* [Bluetooth and Node-RED](https://github.com/gcgarner/my-pistack/wiki/Node-RED#using-bluetooth)
+* [Saving files to disk inside containers](https://github.com/gcgarner/my-pistack/wiki/Node-RED#sharing-files-between-node-red-and-the-host)
+* [Updating the Project](https://github.com/gcgarner/my-pistack/wiki/Updating-the-Project)
 
  ***
 
@@ -36,7 +36,7 @@ The bulk of the README has moved to the Wiki. Please check it out [here](https:/
 
 ***
 
-# IOTstack
+# my-pistack
 
 Docker stack for getting started on IoT on the Raspberry Pi.
 
@@ -82,7 +82,7 @@ Docker will not run on a PiZero or A model 1 because of the CPU. It has not been
 
 ## Running under a virtual machine
 
-For those wanting to test out the script in a Virtual Machine before installing on their Pi there are some limitations. The script is designed to work with Debian based distributions. Not all the container have x86_64 images. For example Portainer does not and will give an error when you try and start the stack. Please see the pinned issue [#29](https://github.com/gcgarner/IOTstack/issues/29), there is more info there.
+For those wanting to test out the script in a Virtual Machine before installing on their Pi there are some limitations. The script is designed to work with Debian based distributions. Not all the container have x86_64 images. For example Portainer does not and will give an error when you try and start the stack. Please see the pinned issue [#29](https://github.com/gcgarner/my-pistack/issues/29), there is more info there.
 
 # Feature Requests
 
@@ -105,15 +105,15 @@ sudo apt-get install git
 2.Download the repository with:
 
 ```bash
-git clone https://github.com/gcgarner/IOTstack.git ~/IOTstack
+git clone https://github.com/gcgarner/my-pistack.git ~/my-pistack
 ```
 
-Due to some script restraints, this project needs to be stored in ~/IOTstack
+Due to some script restraints, this project needs to be stored in ~/my-pistack
 
 3.To enter the directory run:
 
 ```bash
-cd ~/IOTstack
+cd ~/my-pistack
 ```
 
 # The Menu
@@ -163,7 +163,7 @@ Docker allows you to map folders inside your containers to folders on the disk. 
 
 # See Wiki for further info
 
-[Wiki](https://github.com/gcgarner/IOTstack/wiki)
+[Wiki](https://github.com/gcgarner/my-pistack/wiki)
 
 # Add to the project
 
