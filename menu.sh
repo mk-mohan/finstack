@@ -121,20 +121,10 @@ case $mainmenu_selection in
 	container_selection=$(whiptail --title "Container Selection" --notags --separate-output --checklist \
 		"Use the [SPACEBAR] to select which containers you would like to install" 20 78 12 \
 		"portainer" "Portainer" "ON" \
-		"nodered" "Node-RED" "ON" \
 		"influxdb" "InfluxDB" "ON" \
-		"telegraf" "Telegraf (Requires InfluxDB and Mosquitto)" "OFF" \
-		"grafana" "Grafana" "ON" \
-		"mosquitto" "Eclipse-Mosquitto" "ON" \
 		"postgres" "Postgres" "OFF" \
 		"shiny" "shiny" "ON" \
 		"adminer" "Adminer" "OFF" \
-		"openhab" "openHAB" "OFF" \
-		"zigbee2mqtt" "zigbee2mqtt" "OFF" \
-		"pihole" "Pi-Hole" "OFF" \
-		"plex" "Plex media server" "OFF" \
-		"tasmoadmin" "TasmoAdmin" "OFF" \
-		"rtl_433" "RTL_433 to mqtt" "OFF" \
 		3>&1 1>&2 2>&3)
 
 	mapfile -t containers <<<"$container_selection"
