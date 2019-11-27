@@ -1,6 +1,6 @@
   shiny:
     container_name: shiny
-    image: mk-mohan/shiny-finance
+    image: upadrishta/shiny-finance
     restart: unless-stopped
     ports:
       - 3838:3838
