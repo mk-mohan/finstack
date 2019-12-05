@@ -1,6 +1,6 @@
   shiny:
     container_name: shiny
-    image: upadrishta/shiny-finance
+    image: upadrishta/shinyserver
     restart: unless-stopped
     ports:
       - 3838:3838
