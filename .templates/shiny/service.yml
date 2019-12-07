@@ -1,6 +1,6 @@
   shinyserver:
     container_name: shinyserver
-    image: upadrishta/apnashinyserver
+    image: rocker/shiny:latest
     restart: unless-stopped
     ports:
       - 3838:3838
